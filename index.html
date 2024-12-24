@@ -56,12 +56,17 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-linkedin"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- #endregion -->
     <main>
       <!-- #region hero image main -->
-      <section class="page-hero">
+      <section class="page-hero hidden">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button" data-modal-open>
@@ -71,7 +76,7 @@
       </section>
       <!-- #endregion -->
       <!-- #region second section main -->
-      <section class="second-section-page">
+      <section class="second-section-page hidden">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="second-section-flex">
@@ -128,7 +133,7 @@
       </section>
       <!--#endregion -->
       <!-- #region third section main -->
-      <section class="third-section-page">
+      <section class="third-section-page hidden">
         <div class="container">
           <h2 class="third-section-title">Our Team</h2>
           <ul class="third-section-flex">
@@ -305,7 +310,7 @@
       </section>
       <!--#endregion-->
       <!-- #region  fourth section main -->
-      <section class="fourth-section-page">
+      <section class="fourth-section-page hidden">
         <div class="container">
           <h2 class="fourth-section-title">Our Portfolio</h2>
           <ul class="fourth-section-flex">
@@ -429,7 +434,7 @@
       <!-- #endregion -->
     </main>
     <!--#region  footer -->
-    <footer class="footer-page">
+    <footer class="footer-page hidden">
       <div class="container footer-content">
         <div class="footer-title-content">
           <a class="logo footer-logo" href="./index.html"
@@ -499,7 +504,7 @@
     <!--#endregion -->
     <!--#region modal-->
     <!--change class name "modal-overley is-open"-->
-    <div class="modal-overley" data-modal>
+    <div class="modal-overley hidden" data-modal>
       <div class="modal">
         <button class="modal-buton-close" type="button" data-modal-close>
           <svg class="icon" width="8" height="8">
