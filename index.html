@@ -56,11 +56,80 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-linkedin"></use>
+            <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
+      </div>
+      <!--change class name "mobail-menu is-open"-->
+     <!-- <div class="mobail-menu is-open" data-menu-open>
+        <div class="container mobail-menu-container">
+          <button class="mobail-menu-close" data-menu-close>
+            <svg class="icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="nav-mobail">
+            <ul class="nav-mobail-ul">
+              <li class="nav-mobail-li">
+                <a class="nav-mobail-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="nav-mobail-li">
+                <a class="nav-mobail-link" href="">Portfolio</a>
+              </li>
+              <li class="nav-mobail-li">
+                <a class="nav-mobail-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobail-contacts">
+            <ul class="mobail-contacts-list">
+              <li class="mobail-contacts-item">
+                <a class="mobail-contacts-linc" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobail-contacts-item">
+                <a class="mobail-contacts-linc" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="third-section-icon-ul">
+            <li class="third-section-icon-li">
+              <a class="third-section-icon-link" href="">
+                <svg class="third-section-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="third-section-icon-li">
+              <a class="third-section-icon-link" href="">
+                <svg class="third-section-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="third-section-icon-li">
+              <a class="third-section-icon-link" href="">
+                <svg class="third-section-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="third-section-icon-li">
+              <a class="third-section-icon-link" href="">
+                <svg class="third-section-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>-->
       </div>
     </header>
     <!-- #endregion -->
@@ -504,7 +573,7 @@
     <!--#endregion -->
     <!--#region modal-->
     <!--change class name "modal-overley is-open"-->
-    <div class="modal-overley hidden" data-modal>
+    <div class="modal-overley hidden is-open" data-modal>
       <div class="modal">
         <button class="modal-buton-close" type="button" data-modal-close>
           <svg class="icon" width="8" height="8">
@@ -595,5 +664,6 @@
     </div>
     <!-- #endregion -->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
