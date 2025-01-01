@@ -325,7 +325,7 @@ img {
   }
 }
 /* #endregion */
-/* #region hero image main */
+/* #region hero section main */
 .page-hero {
   background-color: #2e2f42;
   background-image: linear-gradient(
@@ -421,7 +421,7 @@ img {
   background-color: #404bbf;
 }
 /* #endregion */
-/* #region second section features*/
+/* #region features section main*/
 .features {
   padding: 96px 0;
   margin: 0 auto;
@@ -557,7 +557,6 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .our-team-title-item-item {
   padding: 32px 0;
 }
@@ -610,5 +609,28 @@ img {
 .our-team-icon-link:focus {
   background-color: #404bbf;
 }
-
+/* #endregion */
+/* #region our portfolio section main */
+.our-portfolio-page {
+}
+.container {
+}
+.our-portfolio-section-title {
+}
+.our-portfolio-section-flex {
+}
+.our-portfolio-section-item {
+}
+.our-portfolio-section-item-tumba {
+}
+.our-portfolio-section-item-tumba-text {
+}
+.our-portfolio-section-title-item-item {
+}
+.our-portfolio-section-title-item {
+}
+.our-portfolio-section-text {
+}
+.our-portfolio-section-item-tumba {
+}
 /* #endregion */
