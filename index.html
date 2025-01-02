@@ -399,23 +399,30 @@
             <li class="our-portfolio-section-item">
               <div class="our-portfolio-section-item-tumba">
                 <picture>
-                  <source media="min-width= 1158px" srcset="" />
-                  <source media="min-width= 768px" srcset="" />
                   <source
-                    media="max-width= 767px"
                     srcset="
-                      ../images/our_portfolio/banking_app_mobile.jpg    1x,
-                      ../images/our_portfolio/banking_app_mobile@2x.jpg 2x
+                      ./images/our-portfolio/banking-app-desc.jpg    1x,
+                      ./images/our-portfolio/banking-app-desc@2x.jpg 2x
                     "
-                  />
+                    media="(min-width: 1158px)" />
+                  <source
+                    srcset="
+                      ./images/our-portfolio/banking-app-tab.jpg    1x,
+                      ./images/our-portfolio/banking-app-tab@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./images/our-portfolio/banking-app-mobile.jpg    1x,
+                      ./images/our-portfolio/banking-app-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)" />
                   <img
-                    src="./images/our_portfolio/banking_app.jpg"
-                    alt="Banking App image"
+                    src="./images/our-portfolio/banking-app-mobile.jpg"
+                    alt="Banking App"
                     width="360"
                     height="300"
-                  />
-                </picture>
-
+                /></picture>
                 <p class="our-portfolio-section-item-tumba-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -429,12 +436,35 @@
             </li>
             <li class="our-portfolio-section-item">
               <div class="our-portfolio-section-item-tumba">
-                <img
-                  src="./images/our_portfolio/cashless_payment.jpg"
-                  alt="Cashless Payment image"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/our-portfolio/cashless-payment-desc.jpg    1x,
+                      ./images/our-portfolio/cashless-payment-desc@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/our-portfolio/cashless-payment-tab.jpg    1x,
+                      ./images/our-portfolio/cashless-payment-tab@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/our-portfolio/cashless-payment-mobile.jpg    1x,
+                      ./images/our-portfolio/cashless-payment-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/our-portfolio/cashless-payment-mobile.jpg"
+                    alt="Cashless Payment image"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="our-portfolio-section-item-tumba-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -451,7 +481,7 @@
             <li class="our-portfolio-section-item">
               <div class="our-portfolio-section-item-tumba">
                 <img
-                  src="./images/our_portfolio/meditation_app.jpg"
+                  src="./images/our-portfolio/meditation_app.jpg"
                   alt="Meditation App image"
                   width="360"
                   height="300"
@@ -470,7 +500,7 @@
             <li class="our-portfolio-section-item">
               <div class="our-portfolio-section-item-tumba">
                 <img
-                  src="./images/our_portfolio/taxi_service.jpg"
+                  src="./images/our-portfolio/taxi_service.jpg"
                   alt="Taxi Service image"
                   width="360"
                   height="300"
@@ -489,7 +519,7 @@
             <li class="our-portfolio-section-item">
               <div class="our-portfolio-section-item-tumba">
                 <img
-                  src="./images/our_portfolio/screen_illustrations.jpg"
+                  src="./images/our-portfolio/screen-illustrations.jpg"
                   alt="Screen Illustrations image"
                   width="360"
                   height="300"
@@ -510,7 +540,7 @@
             <li class="our-portfolio-section-item">
               <div class="our-portfolio-section-item-tumba">
                 <img
-                  src="./images/our_portfolio/online_courses.jpg"
+                  src="./images/our-portfolio/online-courses.jpg"
                   alt="Online Courses image"
                   width="360"
                   height="300"
@@ -692,7 +722,7 @@
       </div>
     </div>
     <!-- #endregion -->
-    <script src="./js/modal.js"></script>
-    <script src="./js/menu.js"></script>
+    <!--<script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>-->
   </body>
 </html>
