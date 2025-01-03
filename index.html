@@ -654,7 +654,7 @@
       <!-- #endregion -->
     </main>
     <!--#region  footer -->
-    <footer class="footer-page">
+    <footer class="footer-page hidden">
       <div class="container footer-content">
         <div class="footer-title-content">
           <a class="logo footer-logo" href="./index.html"
@@ -724,7 +724,7 @@
     <!--#endregion -->
     <!--#region modal-->
     <!--change class name "modal-overley is-open"-->
-    <div class="modal-overley hidden is-open" data-modal>
+    <div class="modal-overley is-open" data-modal>
       <div class="modal">
         <button class="modal-buton-close" type="button" data-modal-close>
           <svg class="icon" width="8" height="8">
@@ -802,9 +802,12 @@
               <span class="modal-form-checkbox">
                 <svg class="icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
-              <a href="#" class="accept-link">Privacy Policy</a></label
+                </svg>
+              </span>
+              <span class="modal-form-checkbox-text"
+                >I accept the terms and conditions of the
+                <a href="#" class="accept-link">Privacy Policy</a>
+              </span></label
             >
           </div>
           <button class="accept-button" type="submit" data-modal-close>
@@ -814,7 +817,7 @@
       </div>
     </div>
     <!-- #endregion -->
-    <!--<script src="./js/modal.js"></script>
-    <script src="./js/menu.js"></script>-->
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
