@@ -345,31 +345,56 @@ img {
 }
 @media screen and (min-width: 767px) and (min-resolution: 192dpi) {
   .page-hero {
-    background-image: url(../images/hero/people-office-mob@2x.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-mob@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
   .page-hero {
     max-width: 768px;
     padding: 112px 0;
-    background-image: url(../images/hero/people-office-tab.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-tab.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .page-hero {
-    background-image: url(../images/hero/people-office-tab@2x.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-tab@2x.jpg);
   }
 }
 @media screen and (min-width: 1157px) {
   .page-hero {
     max-width: 1440px;
     padding: 188px 0;
-    background-image: url(../images/hero/people-office-desk.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-desk.jpg);
   }
 }
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .page-hero {
-    background-image: url(../images/hero/people-office-desk@2x.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-desk@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
