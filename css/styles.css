@@ -21,14 +21,12 @@ body {
   color: #434455;
   background-color: #fff;
 }
-
 ul,
 ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 h1,
 h2,
 h3,
@@ -89,7 +87,6 @@ img {
 .header-logo .logo-part {
   color: #2e2f42;
 }
-
 .header-logo {
   padding: 16px 0;
   display: block;
@@ -328,7 +325,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/people-office_mob.jpg);
+    url(../images/hero/people-office-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -339,38 +336,33 @@ img {
 }
 @media screen and (min-width: 767px) and (min-resolution: 192dpi) {
   .page-hero {
-    background-image: url(../images/hero/people-office_mob@2x.jpg);
+    background-image: url(../images/hero/people-office-mob@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
   .page-hero {
     max-width: 768px;
     padding: 112px 0;
-    background-image: url(../images/hero/people-office_tab.jpg);
+    background-image: url(../images/hero/people-office-tab.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .page-hero {
-    background-image: url(../images/hero/people-office_tab@2x.jpg);
+    background-image: url(../images/hero/people-office-tab@2x.jpg);
   }
 }
 @media screen and (min-width: 1157px) {
   .page-hero {
     max-width: 1440px;
     padding: 188px 0;
-    background-image: url(../images/hero/people-office_desk.jpg);
+    background-image: url(../images/hero/people-office-desk.jpg);
   }
 }
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .page-hero {
-    background-image: url(../images/hero/people-office_desk@2x.jpg);
+    background-image: url(../images/hero/people-office-desk@2x.jpg);
   }
 }
-/*.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}*/
 .hero-title {
   font-weight: 700;
   font-size: 36px;
@@ -540,8 +532,6 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  /*text-align: center;
-  /*text-transform: capitalize;*/
   margin-bottom: 72px;
   color: #2e2f42;
 }
@@ -609,7 +599,6 @@ img {
 .our-portfolio-page {
   padding-top: 96px 0;
 }
-
 .our-portfolio-section-title {
   font-weight: 700;
   font-size: 36px;
