@@ -632,21 +632,24 @@ img {
   text-transform: capitalize;
   margin-bottom: 72px;
   color: #2e2f42;
+  margin-top: 0;
 }
 .our-portfolio-section-flex {
   display: flex;
-  flex-direction: column;
   gap: 48px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  list-style-type: none;
+  max-width: 288px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-left: 0;
 }
 @media screen and (min-width: 768px) {
   .our-portfolio-section-flex {
-    flex-direction: row;
-    flex-wrap: wrap;
+    max-width: 736px;
     gap: 72px 24px;
   }
   .our-portfolio-section-item {
-    width: calc((100% - 24px) / 2);
+    max-width: 356px;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -654,23 +657,34 @@ img {
     padding: 120px 0;
   }
   .our-portfolio-section-flex {
-    gap: 48px 24px;
+    max-width: 1128px;
+    row-gap: 48px;
   }
   .our-portfolio-section-item {
-    width: calc((100% - 48px) / 3);
+    max-width: 360px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: none;
+  }
+  .our-portfolio-section-item:hover,
+  .our-portfolio-section-item:focus {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 .our-portfolio-section-item {
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  min-width: 288px;
   background: #fff;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .our-portfolio-section-item-tumba {
   position: relative;
   overflow: hidden;
 }
 .our-portfolio-section-item-tumba-text {
   position: absolute;
+  font-weight: 400;
+  margin: 0;
   top: 0px;
   font-size: 16px;
   line-height: 1.5;
@@ -687,9 +701,6 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
-
-  width: 288px;
-  height: 120px;
 }
 .our-portfolio-section-title-item {
   font-weight: 500;
@@ -698,14 +709,15 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
   color: #2e2f42;
+  margin-top: 0;
 }
 .our-portfolio-section-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
-  padding-bottom: 32px;
+  color: #434455;
+  margin: 0;
 }
 .our-portfolio-section-item:hover .our-portfolio-section-item-tumba-text {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
